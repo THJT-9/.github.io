@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Thomas Tovey - Portfolio</title>
+        <meta name="viewport" content="width=device-width, initital-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/base_style.css">
+        <link rel="stylesheet" type="text/css" href="./css/projects_style.css">
+    </head>
+</html>
+
+<!-- TODO 1: Fix page formating on smaller screens -->
+
+<body>
+  <div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"><img src="./images/home_button.png" class="nav-button"> Home</a>
+        <a href="javascript:void(0)" style="background-color: lightgray; color: black;"><img src="./images/projects_button.png" class="nav-button"> Projects</a>
+        <a href="about.html"><img src="./images/info_button.png" class="nav-button"> About Me</a>
+        <a href="contact.html"><img src="./images/contact_button.png" class="nav-button"> Contact</a>
+      </div>
+      <div class="menu-container">
+        <div class="menu">
+          <span class="span-menu" onclick="openNav()"><img src="./images/menu_button.png" class="menu-button"> Menu</span>
+        </div>
+
+        <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+      </div>
+
+      <div class="project-container">
+        <div class="project-bg">
+          <a href="https://github.com/THJT-9/Text-to-Morse-Code-Generator" target="_blank" rel="noopener noreferrer">
+            <img class="project-img" src="./images/morse-code.png">
+          </a>
+          <p class="project-name"><u>Morse Code Encoder/Decoder</u></p>
+          <p class="project-desc">
+            A text based tool that takes a user-given input and, depending on option chosen, encodes it with Morse code or decodes it into English, before returning the results to the user.
+          </p>
+          <p class="features">
+            Features include:
+          </p>
+          <li class="features-list">
+            Automatic detection of encoding/decoding requirement.
+          </li>
+          <li class="features-list">
+            Error handling for characters that have no morse code translation when encoding. 
+          </li>
+          <li class="features-list">
+            Error handling for undecodable charcters.
+          </li>
+          <p class="project-langs">
+            <u>Languages Used</u>
+          </p>
+            <img  class="knowledge-img" style="height: 50px; width: 50px;" src="./images/skills/python.png">
+        </div>
+        <div class="project-container" style="margin-left:1050px; margin-top: -755px; width: 40vw;">
+        <div class="project-bg">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img class="project-img" src="./images/projects placeholder.png">
+          </a>
+          <p class="project-name"><u>Portfolio Project 2</u></p>
+          <p class="project-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="features">
+            Features include:
+          </p>
+          <li class="features-list">
+            Feature 1
+          </li>
+          <li class="features-list">
+            Feature 2 
+          </li>
+          <li class="features-list">
+            Feature 3
+          </li>
+          <p class="project-langs">
+            <u>Languages Used</u>
+          </p>
+            <img  class="knowledge-img" style="height: 50px; width: 50px;" src="./images/skills/python.png">
+        </div>
+      </div>
+</body>
+
+<footer>
+  <div>
+    <div width="20px">
+      <h4 class="design">Design created by Thomas Tovey</h4>
+    </div>
+    <div width="80%" style="margin-top: -50px;">
+      <a href="https://github.com/THJT-9"><img src="./images/github_logo.png" class="footer-link"></a>
+      <a href="https://uk.linkedin.com/in/thomas-tovey-b6545b109"><img src="./images/linkedin_logo_bw.png" class="footer-link-add"></a>
+      <a href="mailto:thomastovey3d@gmail.com"><img src="./images/contact_button.png" class="footer-link-add"></a>
+    </div>
+  </div>
+</footer>
