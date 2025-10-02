@@ -1,0 +1,122 @@
+.body_bg {
+  font-family: "Lato", sans-serif;
+  /* background-image: url('../images/nebula.jpg'); */
+  background-image: url('../images/background_pattern.png');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.profile-container {
+  margin-left: 41.5vw;
+  width: 50%;
+  z-index: 0;
+  margin-top: 15vh;
+}
+
+.profile {
+    max-width: 400px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.name-container {
+  margin-left: 5%;
+  width:87%;
+  z-index: 0;
+  margin-top: -4vh;
+}
+
+.name-text {
+  font-size: 4rem;
+  color: white;
+  margin-left: 35.7vw;
+  z-index: 0;
+}
+
+.text-change-container {
+  margin-left: 5%;
+  width:87%;
+  height: 50%;
+}
+
+.coding-language {
+  font-size: 3rem;
+  color:white;
+  margin-left:17px;
+  margin-right: 15px;
+  text-align:middle
+}
+
+.text-changer {
+  display: flex;
+  margin-left:36.5vw;
+  justify-content: left;
+  align-items: center;
+  margin-top: -12vh;
+  z-index: 0;
+}
+
+.text {
+  font-size: 2.5rem;
+  color: white;
+  vertical-align: middle;
+}
+
+.text::after {
+  content: "";
+  animation: change-text 10s infinite;
+  vertical-align :middle;
+}
+
+@keyframes change-text {
+  0% {
+    content: "Analyst"
+  }
+  30% {
+    content: "Analyst"
+  }
+  50% {
+    content: "Developer"
+  }
+  100% {
+    content: "Engineer"
+  }
+}
+
+.knowledge-base-container {
+  margin-left: 2.7%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 85%;
+  /*alt no margin-left, padding-left: 10%; width: 80% */
+}
+
+.knowledge-bg {
+  background-color: rgba(255,255,255,0.3);
+  padding-top:5px;
+  padding-bottom:20px;
+  border-radius: 5px;
+}
+
+.knowledge-base-start {
+  margin-top: -3vh;
+}
+
+.knowledge-title {
+  font-size: 35px;
+  color:white;
+  margin-left: 35.7vw;
+}
+
+.knowledge-imgs-container {
+  margin-top: -2vh;
+  text-align: center;
+}
+
+.knowledge-img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: white;
+}
