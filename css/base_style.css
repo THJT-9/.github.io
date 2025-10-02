@@ -89,33 +89,40 @@ body {
 /* Footer Elements */
 footer {
   font-family: "Lato", sans-serif;
-  height: 5vh;
   width: 100%;
   position: fixed;
   z-index: 0;
   bottom: 0;
-  left: 0;
   border-top: 2px solid lightgray;
   background-color: #111;
   color: white;
+  padding: 10px;
+  vertical-align: middle;
 }
 
 .design {
-  text-align: right;
+  margin-top: 0;
   padding-right: 20px;
-  z-index: 1;
+  position: fixed;
+  right:0;
+  width: 30%;
+  text-align: right;
+}
+
+.footer-link-start{
+  width: 40px;
+  vertical-align: middle;
 }
 
 .footer-link {
   width: 40px;
   vertical-align: middle;
-  margin-left: 47.2vw;
-  z-index: 1;
+  margin-left: 10px;
 }
 
-.footer-link-add {
+.footer-link-end {
   width: 40px;
   vertical-align: middle;
   margin-left: 10px;
-  z-index: 1;
+  margin-right: 20px;
 }
