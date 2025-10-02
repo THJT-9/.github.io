@@ -28,32 +28,31 @@
   font-size: 4rem;
   color: white;
   z-index: 0;
+  margin-bottom: 0;
 }
 
 .text-change-container {
   text-align: center;
   z-index: 0;
-  margin-bottom: -4vh;
 }
 
 .coding-language {
   font-size: 3rem;
   color:white;
   margin-right: 15px;
+  margin-top: 0;
 }
 
 .text-changer {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: -12vh;
   z-index: 0;
 }
 
 .text {
   font-size: 2.5rem;
   color: white;
-  vertical-align: middle;
+  margin-top: 5px;
 }
 
 .text::after {
