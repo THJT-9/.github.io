@@ -50,15 +50,14 @@
 }
 
 .text {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
-  margin-top: 5px;
+  margin-top: 0;
 }
 
 .text::after {
   content: "";
   animation: change-text 10s infinite;
-  vertical-align :middle;
 }
 
 @keyframes change-text {
@@ -92,19 +91,17 @@
   border-radius: 5px;
 }
 
-.knowledge-base-start {
-  margin-top: -3vh;
-}
-
 .knowledge-title {
   font-size: 35px;
   color:white;
   text-align: center;
-  margin-bottom: 2vh;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .knowledge-imgs-container {
   text-align: center;
+  margin-top: 10px;
 }
 
 .knowledge-img {
