@@ -43,8 +43,8 @@ padding-bottom: 30px;
 
 .project-img {
     border: 2px solid white;
-    border-radius: 10px;
-    background-color: black;
+    border-radius: 15px;
+    background-color: white;
 }
 
 .project-name {
