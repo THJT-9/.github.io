@@ -1,8 +1,8 @@
 .button-container {
   color:gray;
   margin-top: 50px;
-  margin-left: 46vw;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .download_button {
@@ -19,9 +19,14 @@
 }
 
 .cv-container {
-  width: 85%;
+  width: 80%;
   margin-left: 10%;
   margin-bottom: 100px;
+}
+
+.section-title {
+  text-align: center;
+  color: white;
 }
 
 .education {
