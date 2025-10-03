@@ -100,6 +100,12 @@ footer {
   vertical-align: middle;
 }
 
+.footer-content {
+  margin-left:20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
 .design {
   padding-right: 20px;
   position: fixed;
@@ -126,4 +132,3 @@ footer {
   margin-left: 10px;
   margin-right: 20px;
 }
-
