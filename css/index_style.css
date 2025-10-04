@@ -14,6 +14,7 @@
 }
 
 .profile {
+    text-align: center;
     max-width: 400px;
     border: 5px solid white;
     border-radius: 50%;
@@ -25,6 +26,7 @@
 }
 
 .name-text {
+  text-align: center;
   font-size: 4rem;
   color: white;
   z-index: 0;
@@ -33,7 +35,6 @@
 
 .text-change-container {
   text-align: center;
-  margin-left: 45px;
   z-index: 0;
 }
 
@@ -42,16 +43,17 @@
   color:white;
   margin-right: 15px;
   margin-top: 0;
-  white-space: nowrap;
 }
 
 .text-changer {
+  text-align: center;
   display: flex;
   justify-content: center;
   z-index: 0;
 }
 
 .text {
+  text-align: center;
   font-size: 3rem;
   color: white;
   margin-top: 0;
@@ -64,16 +66,16 @@
 
 @keyframes change-text {
   0% {
-    content: "Analyst"
+    content: "Python | Analyst"
   }
   30% {
-    content: "Analyst"
+    content: "Python | Analyst"
   }
   50% {
-    content: "Developer"
+    content: "Python | Developer"
   }
   100% {
-    content: "Engineer"
+    content: "Python | Engineer"
   }
 }
 
@@ -113,7 +115,3 @@
   border-radius: 15px;
   background-color: white;
 }
-
-
-
-
