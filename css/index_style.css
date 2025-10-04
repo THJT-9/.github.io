@@ -33,7 +33,7 @@
 
 .text-change-container {
   text-align: center;
-  margin-left: 15px;
+  margin-left: 45px;
   z-index: 0;
 }
 
@@ -113,6 +113,7 @@
   border-radius: 15px;
   background-color: white;
 }
+
 
 
 
