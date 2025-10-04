@@ -33,13 +33,13 @@
 
 .text-change-container {
   text-align: center;
+  margin-left: 15px;
   z-index: 0;
 }
 
 .coding-language {
   font-size: 3rem;
   color:white;
-  margin-left: 15px;
   margin-right: 15px;
   margin-top: 0;
   white-space: nowrap;
@@ -113,5 +113,6 @@
   border-radius: 15px;
   background-color: white;
 }
+
 
 
