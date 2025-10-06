@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/carousel_style.css">
   </head>
 </html>
-
+ 
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -23,12 +23,36 @@
     <div class="menu">
       <span class="span-menu" onclick="openNav()"><img src="./images/menu_button.png" class="menu-button"> Menu</span>
     </div>
-
   </div>
   
-  <div class="carousel">
-    <h1 style="text-align: center; color: white;">Insert Featured Projects Carousel Here</h1>
-    
+  <div class="carousel-container" style="width: 84%; margin-top: 30px; margin-left: 8%">
+    <div class="slideshow-container" style="text-align: center;">
+
+      <div class="mySlides fade">
+        <a href="#project1" rel="noopener noreferrer">
+          <img src="./images/featured.png" style="width: 100%; height: 450px;">
+      </div>
+
+      <div class="mySlides fade">
+        <a href="#project2" rel="noopener noreferrer">
+          <img src="./images/featured.png" style="width: 100%; height: 450px;">
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="#project6" rel="noopener noreferrer">
+          <img src="./images/featured.png" style="width: 100%; height: 450px;">
+        </a>
+      </div>
+
+      <a class="prev" style="font-size: 50px; left: 0%; top: 0%; padding: 200px 10px 184px; margin-top: 0px; border-radius: 0px;" onclick="plusSlides(-1)">❮</a>
+      <a class="next" style="font-size: 50px; right: 0%; top: 0%; padding: 200px 10px 184px; margin-top: 0px; border-radius: 0px;" onclick="plusSlides(1)">❯</a>
+      <br>
+
+    </div>
+  </div>
+   <div style="width: 85%; margin-left: 7.5%;">
+      <hr>
   </div>
 
   <!-- Projects 1-3 -->
@@ -391,6 +415,35 @@
   }
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+<!-- Script: Carousel (Featured) -->
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function p1currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
   }
 </script>
 <!-- Script: Carousel (Project 1) -->
