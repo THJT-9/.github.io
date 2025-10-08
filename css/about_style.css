@@ -19,8 +19,6 @@
 }
 
 .cv-container {
-  width: 80%;
-  margin-left: 10%;
   margin-bottom: 100px;
 }
 
@@ -30,33 +28,30 @@
 }
 
 .education {
-  margin-left: 3%;
-  margin-right: 3%;
   color: white;
   font-size: 20px;
   text-align: center;
-  margin-left: -3vw;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .role {
-  margin-left: 3%;
-  margin-right: 3%;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .cv-p {
-  margin-left: 3%;
-  margin-right: 3%;
   color: white;
   text-indent: 20px;
   font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .job-list {
-  margin-left: 3%;
-  margin-right: 3%;
   color: white;
   font-size: 20px;
 }

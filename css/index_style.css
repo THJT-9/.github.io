@@ -1,9 +1,7 @@
 .body_bg {
   font-family: "Lato", sans-serif;
-  /* background-image: url('../images/nebula.jpg'); */
   background-image: url('../assets/img/background_pattern.png');
   background-size: cover;
-  /* background-repeat: no-repeat; */
 }
 
 .profile-container {
@@ -84,12 +82,7 @@
 }
 
 .knowledge-base-container {
-  margin-left: 2.7%;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 85%;
   margin-bottom: 8vh;
-  /*alt no margin-left, padding-left: 10%; width: 80% */
 }
 
 .knowledge-bg {

@@ -9,11 +9,13 @@
 
 img {
   vertical-align: middle;
+  border-radius: 5px;
 }
 
 .slideshow-container {
   position: relative;
   margin: auto;
+  text-align: center;
 }
 
 .prev, .next {

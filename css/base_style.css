@@ -5,7 +5,7 @@ body {
 
 /* Nav Elements */
 .menu-container {
-  width: 20vw;
+  width: 160px;
 }
 
 .span-menu {
@@ -32,7 +32,7 @@ body {
 }
 
 .menu:hover {
-  width: 160px;
+  width: 150px;
   background-color: gray;
   border: 2px solid dimgray;
   border-radius: 50px 20px 20px 50px;
@@ -84,6 +84,12 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 3rem;}
+}
+
+/* Content */
+.content-container {
+  margin-left: 9vw;
+  margin-right: 9vw;
 }
 
 /* Footer Elements */
