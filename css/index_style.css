@@ -5,6 +5,7 @@
 }
 
 .profile-container {
+  justify-content: center;
   text-align: center;
   z-index: 0;
   /* With scrolling banner on */
@@ -111,6 +112,4 @@
   border: 2px solid white;
   border-radius: 15px;
   background-color: white;
-
 }
-

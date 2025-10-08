@@ -1,24 +1,29 @@
 * {box-sizing: border-box}
 .carousel-container {
   margin:0;
+  z-index: 0;
 }
 
 .mySlides, .p1mySlides, .p2mySlides, .p3mySlides, .p4mySlides, .p5mySlides, .p6ySlides {
   display: none;
+  z-index: 0;
 }
 
 img {
   vertical-align: middle;
   border-radius: 5px;
+  z-index: 0;
 }
 
 .slideshow-container {
   position: relative;
   margin: auto;
   text-align: center;
+  z-index: 0;
 }
 
 .prev, .next {
+  z-index: 0;
   cursor: pointer;
   position: absolute;
   top: 50%;
