@@ -6,7 +6,6 @@
 
 .profile-container {
   text-align: center;
-  max-width: 400px;
   z-index: 0;
   /* With scrolling banner on */
   margin-top: 12vh;
@@ -16,7 +15,7 @@
 
 .profile {
     text-align: center;
-    max-width: 400px;
+    max-width: 350px;
     border: 5px solid white;
     border-radius: 50%;
 }
@@ -114,3 +113,4 @@
   background-color: white;
 
 }
+
