@@ -96,7 +96,6 @@ body {
 footer {
   font-family: "Lato", sans-serif;
   width: 100%;
-  height: auto;
   position: fixed;
   z-index: 0;
   bottom: 0;
@@ -138,4 +137,5 @@ footer {
   vertical-align: middle;
   margin-left: 10px;
   margin-right: 20px;
+
 }
