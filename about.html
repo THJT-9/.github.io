@@ -4,22 +4,22 @@
         <meta charset="UTF-8">
         <title>Thomas Tovey - Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./static/css/base_style.css">
-        <link rel="stylesheet" type="text/css" href="./static/css/about_style.css">
+        <link rel="stylesheet" type="text/css" href="./css/base_style.css">
+        <link rel="stylesheet" type="text/css" href="./css/about_style.css">
     </head>
 </html>
 
 <body>
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="{{ url_for('index') }}"><img src="./static/assets/images/home_button.png" class="nav-button"> Home</a>
-        <a href="{{ url_for('projects') }}"><img src="./static/assets/images/projects_button.png" class="nav-button"> Projects</a>
-        <a href="javascript:void(0)" style="background-color: lightgray; color: black;"><img src="./static/assets/images/info_button.png" class="nav-button"> About Me</a>
-        <a href="{{ url_for('contact') }}"><img src="./static/assets/images/contact_button.png" class="nav-button"> Contact</a>
+        <a href="index.html"><img src="./images/home_button.png" class="nav-button"> Home</a>
+        <a href="projects.html"><img src="./images/projects_button.png" class="nav-button"> Projects</a>
+        <a href="javascript:void(0)" style="background-color: lightgray; color: black;"><img src="./images/info_button.png" class="nav-button"> About Me</a>
+        <a href="contact.html"><img src="./images/contact_button.png" class="nav-button"> Contact</a>
       </div>
       <div class="menu-container">
         <div class="menu">
-          <span class="span-menu" onclick="openNav()"><img src="./static/assets/images/menu_button.png" class="menu-button"> Menu</span>
+          <span class="span-menu" onclick="openNav()"><img src="./images/menu_button.png" class="menu-button"> Menu</span>
         </div>
 
         <script>
@@ -33,7 +33,7 @@
       </div>
   <div class="content-container">
   <div class="button-container">
-    <a class="download_button" href="./static/assets/files/Thomas Tovey CV.pdf" download="Thomas Tovey-CV.pdf">Download CV</a>
+    <a class="download_button" href="./files/Thomas Tovey CV.pdf" download="Thomas Tovey-CV.pdf">Download CV</a>
   </div>
     <div class="cv-container">
         <hr>
@@ -53,7 +53,7 @@
         <p class="education">
           -Self taught Python, HTML, CSS & SQL via UDEMY, March 2025-Current-
           </p>
-        <p class="education"><a href="{{ url_for('certificate') }}" target="_blank" rel="noopener noreferrer">See Certificate</a></p>
+        <p class="education"><a href="certificate.html" target="_blank" rel="noopener noreferrer">See Certificate</a></p>
         <p class="education">
           -Staffordshire University [3D Games Design (MEng)], 2013 to Summer 2017-
         </p>
@@ -172,8 +172,8 @@
 <footer>
     <div class="footer-content">
       <p class="design">Design created by Thomas Tovey</p>
-      <a href="https://github.com/THJT-9" target="_blank" rel="noopener noreferrer"><img src="./static/assets/images/github_logo.png" class="footer-link-start"></a>
-      <a href="https://uk.linkedin.com/in/thomas-tovey-b6545b109" target="_blank" rel="noopener noreferrer"><img src="./static/assets/images/linkedin_logo_bw.png" class="footer-link"></a>
-      <a href="mailto:thomastovey3d@gmail.com" ><img src="./static/assets/images/contact_button.png" class="footer-link-end"></a>
+      <a href="https://github.com/THJT-9" target="_blank" rel="noopener noreferrer"><img src="./images/github_logo.png" class="footer-link-start"></a>
+      <a href="https://uk.linkedin.com/in/thomas-tovey-b6545b109" target="_blank" rel="noopener noreferrer"><img src="./images/linkedin_logo_bw.png" class="footer-link"></a>
+      <a href="mailto:thomastovey3d@gmail.com" ><img src="./images/contact_button.png" class="footer-link-end"></a>
     </div>
 </footer>
